@@ -3,10 +3,14 @@
 
     function increment() {
         count++;
-        document.getElementById('count-el').innerText = count;
+        document.getElementById('count-el').textContent = count;
 
     }
 
     function save() {
-        alert("Person Number: " + count);
+        let saveEl = document.getElementById('save-el');
+        saveEl.textContent += ` ${count} - `;
+        count = 0;
+        document.getElementById('count-el').textContent = 0;
+
     }

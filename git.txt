@@ -1,0 +1,29 @@
+https://learngitbranching.js.org/?locale=es_ES
+git init (iniciar con git)
+git status (ver estado de los archivos)
+git add . (agregar todos los archivos)
+git commit -am (union de add y -m)
+git rm (nombre del archivo) --cached (eliminar archivo)
+git commit -m "put some message"(agrega a repo)
+git --list ver configuraciones por defecto 
+git --list --show--origin (ver donde se guardaron las configuraciones)
+git config --global user.name "Nombre de usuario" (configurar nombre de usuario)
+git config --global user.email "correo" (configurar correo de usuario)
+git log (nombre del archivo) para ver la historia 
+git log --stat (para ver los cambios especificos hechos)
+git show (nombre del archivo) para ver los cambios hechos 
+git diff (compara las versiones de los commits)
+git reset (id de la version a volver) --hard(todo vuelve a lo anterior) o --soft(vuelve pero no elimina)
+git checkout (id del archivo) (nombre del archivo) para ver el archivo en la version del id
+git clone (url) copia la version del repo en la nube
+git branch (nombre de la nueva rama) (crea una nueva rama)
+git checkout (nombre de rama) para cambiar de rama
+git merge (nombre de la rama (para unir ramas debes estar en la deseada y ejecutar este comando para
+unirlas)
+
+git remote add origin (link) agrega el repo 
+git origin (ve los datos del repo)
+git origin -v (muestra los datos de github)
+git push origin (nombre de rama) envia los datos al repo
+git pull origin (nombre de la rama actual) para traer los datos del repo
+git pull origin master --alloq-unrelated-histories (para fusionar sin errores)
